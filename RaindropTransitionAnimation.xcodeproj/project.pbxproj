@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6613EB7F20446BE000979C7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6613EB7E20446BE000979C7B /* AppDelegate.swift */; };
+		6613EB8120446BE000979C7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6613EB8020446BE000979C7B /* ViewController.swift */; };
+		6613EB8420446BE000979C7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6613EB8220446BE000979C7B /* Main.storyboard */; };
+		6613EB8620446BE000979C7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6613EB8520446BE000979C7B /* Assets.xcassets */; };
+		6613EB8920446BE000979C7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6613EB8720446BE000979C7B /* LaunchScreen.storyboard */; };
+		6613EB9420446BE000979C7B /* RaindropTransitionAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6613EB9320446BE000979C7B /* RaindropTransitionAnimationTests.swift */; };
+		6613EB9F20446C4400979C7B /* RaindropAnimationProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6613EB9E20446C4400979C7B /* RaindropAnimationProperties.swift */; };
+		6613EBA120472B4C00979C7B /* CGPoint+Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6613EBA020472B4C00979C7B /* CGPoint+Distance.swift */; };
+		6613EBA32047336700979C7B /* RaindropAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6613EBA22047336700979C7B /* RaindropAnimationController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6613EB9020446BE000979C7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6613EB7320446BE000979C7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6613EB7A20446BE000979C7B;
+			remoteInfo = RainDropTransitionAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6613EB7B20446BE000979C7B /* RaindropTransitionAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaindropTransitionAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6613EB7E20446BE000979C7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6613EB8020446BE000979C7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6613EB8320446BE000979C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6613EB8520446BE000979C7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6613EB8820446BE000979C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6613EB8A20446BE000979C7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6613EB8F20446BE000979C7B /* RaindropTransitionAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaindropTransitionAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6613EB9320446BE000979C7B /* RaindropTransitionAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaindropTransitionAnimationTests.swift; sourceTree = "<group>"; };
+		6613EB9520446BE000979C7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6613EB9E20446C4400979C7B /* RaindropAnimationProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaindropAnimationProperties.swift; sourceTree = "<group>"; };
+		6613EBA020472B4C00979C7B /* CGPoint+Distance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Distance.swift"; sourceTree = "<group>"; };
+		6613EBA22047336700979C7B /* RaindropAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaindropAnimationController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6613EB7820446BE000979C7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6613EB8C20446BE000979C7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6613EB7220446BE000979C7B = {
+			isa = PBXGroup;
+			children = (
+				6613EB7D20446BE000979C7B /* RaindropTransitionAnimation */,
+				6613EB9220446BE000979C7B /* RaindropTransitionAnimationTests */,
+				6613EB7C20446BE000979C7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6613EB7C20446BE000979C7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6613EB7B20446BE000979C7B /* RaindropTransitionAnimation.app */,
+				6613EB8F20446BE000979C7B /* RaindropTransitionAnimationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6613EB7D20446BE000979C7B /* RaindropTransitionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				6613EB7E20446BE000979C7B /* AppDelegate.swift */,
+				6613EB8020446BE000979C7B /* ViewController.swift */,
+				6613EBA22047336700979C7B /* RaindropAnimationController.swift */,
+				6613EB9E20446C4400979C7B /* RaindropAnimationProperties.swift */,
+				6613EBA020472B4C00979C7B /* CGPoint+Distance.swift */,
+				6613EB8220446BE000979C7B /* Main.storyboard */,
+				6613EB8520446BE000979C7B /* Assets.xcassets */,
+				6613EB8720446BE000979C7B /* LaunchScreen.storyboard */,
+				6613EB8A20446BE000979C7B /* Info.plist */,
+			);
+			path = RaindropTransitionAnimation;
+			sourceTree = "<group>";
+		};
+		6613EB9220446BE000979C7B /* RaindropTransitionAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				6613EB9320446BE000979C7B /* RaindropTransitionAnimationTests.swift */,
+				6613EB9520446BE000979C7B /* Info.plist */,
+			);
+			path = RaindropTransitionAnimationTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6613EB7A20446BE000979C7B /* RaindropTransitionAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6613EB9820446BE000979C7B /* Build configuration list for PBXNativeTarget "RaindropTransitionAnimation" */;
+			buildPhases = (
+				6613EB7720446BE000979C7B /* Sources */,
+				6613EB7820446BE000979C7B /* Frameworks */,
+				6613EB7920446BE000979C7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RaindropTransitionAnimation;
+			productName = RainDropTransitionAnimation;
+			productReference = 6613EB7B20446BE000979C7B /* RaindropTransitionAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6613EB8E20446BE000979C7B /* RaindropTransitionAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6613EB9B20446BE000979C7B /* Build configuration list for PBXNativeTarget "RaindropTransitionAnimationTests" */;
+			buildPhases = (
+				6613EB8B20446BE000979C7B /* Sources */,
+				6613EB8C20446BE000979C7B /* Frameworks */,
+				6613EB8D20446BE000979C7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6613EB9120446BE000979C7B /* PBXTargetDependency */,
+			);
+			name = RaindropTransitionAnimationTests;
+			productName = RainDropTransitionAnimationTests;
+			productReference = 6613EB8F20446BE000979C7B /* RaindropTransitionAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6613EB7320446BE000979C7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Adam Soroczynski";
+				TargetAttributes = {
+					6613EB7A20446BE000979C7B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					6613EB8E20446BE000979C7B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6613EB7A20446BE000979C7B;
+					};
+				};
+			};
+			buildConfigurationList = 6613EB7620446BE000979C7B /* Build configuration list for PBXProject "RaindropTransitionAnimation" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6613EB7220446BE000979C7B;
+			productRefGroup = 6613EB7C20446BE000979C7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6613EB7A20446BE000979C7B /* RaindropTransitionAnimation */,
+				6613EB8E20446BE000979C7B /* RaindropTransitionAnimationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6613EB7920446BE000979C7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6613EB8920446BE000979C7B /* LaunchScreen.storyboard in Resources */,
+				6613EB8620446BE000979C7B /* Assets.xcassets in Resources */,
+				6613EB8420446BE000979C7B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6613EB8D20446BE000979C7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6613EB7720446BE000979C7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6613EB8120446BE000979C7B /* ViewController.swift in Sources */,
+				6613EBA32047336700979C7B /* RaindropAnimationController.swift in Sources */,
+				6613EB9F20446C4400979C7B /* RaindropAnimationProperties.swift in Sources */,
+				6613EB7F20446BE000979C7B /* AppDelegate.swift in Sources */,
+				6613EBA120472B4C00979C7B /* CGPoint+Distance.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6613EB8B20446BE000979C7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6613EB9420446BE000979C7B /* RaindropTransitionAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6613EB9120446BE000979C7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6613EB7A20446BE000979C7B /* RaindropTransitionAnimation */;
+			targetProxy = 6613EB9020446BE000979C7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6613EB8220446BE000979C7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6613EB8320446BE000979C7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6613EB8720446BE000979C7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6613EB8820446BE000979C7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6613EB9620446BE000979C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6613EB9720446BE000979C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6613EB9920446BE000979C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = RaindropTransitionAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AS.RaindropTransitionAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6613EB9A20446BE000979C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = RaindropTransitionAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AS.RaindropTransitionAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6613EB9C20446BE000979C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68CAGVD466;
+				INFOPLIST_FILE = RaindropTransitionAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AS.RaindropTransitionAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RaindropTransitionAnimation.temp_caseinsensitive_rename.app/RaindropTransitionAnimation.temp_caseinsensitive_rename";
+			};
+			name = Debug;
+		};
+		6613EB9D20446BE000979C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68CAGVD466;
+				INFOPLIST_FILE = RaindropTransitionAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AS.RaindropTransitionAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RaindropTransitionAnimation.temp_caseinsensitive_rename.app/RaindropTransitionAnimation.temp_caseinsensitive_rename";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6613EB7620446BE000979C7B /* Build configuration list for PBXProject "RaindropTransitionAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6613EB9620446BE000979C7B /* Debug */,
+				6613EB9720446BE000979C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6613EB9820446BE000979C7B /* Build configuration list for PBXNativeTarget "RaindropTransitionAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6613EB9920446BE000979C7B /* Debug */,
+				6613EB9A20446BE000979C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6613EB9B20446BE000979C7B /* Build configuration list for PBXNativeTarget "RaindropTransitionAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6613EB9C20446BE000979C7B /* Debug */,
+				6613EB9D20446BE000979C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6613EB7320446BE000979C7B /* Project object */;
+}
