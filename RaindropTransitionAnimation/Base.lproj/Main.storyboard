@@ -22,7 +22,7 @@
                                 <rect key="frame" x="138" y="318" width="98" height="30"/>
                                 <state key="normal" title="Test transition"/>
                                 <connections>
-                                    <segue destination="QTj-8c-YTR" kind="show" identifier="ShowSegue" id="3Qi-cc-WEH"/>
+                                    <segue destination="QTj-8c-YTR" kind="show" identifier="" id="3Qi-cc-WEH"/>
                                 </connections>
                             </button>
                         </subviews>

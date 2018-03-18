@@ -29,10 +29,14 @@ public class RaindropAnimationController: NSObject, UIViewControllerAnimatedTran
     // This method can only be a nop if the transition is interactive and not a percentDriven interactive transition.
     public func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
         
-        let frame = transitionContext.finalFrame(for: transitionContext.viewController(forKey: UITransitionContextViewControllerKey.to)!)
+        guard let source = transitionContext.view(forKey: .from),
+            let target = transitionContext.view(forKey: .to),
+            let targetController = transitionContext.viewController(forKey: .to) else {
+                transitionContext.completeTransition(false)
+                return
+        }
         
-        let source = transitionContext.view(forKey: UITransitionContextViewKey.from)!
-        let target = transitionContext.view(forKey: UITransitionContextViewKey.to)!
+        let frame = transitionContext.finalFrame(for: targetController)
         
         target.frame = frame
         transitionContext.containerView.insertSubview(target, aboveSubview: source)
