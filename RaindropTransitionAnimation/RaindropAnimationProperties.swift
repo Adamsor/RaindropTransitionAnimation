@@ -26,13 +26,11 @@ public enum RaindropRadiusCalculationType {
 
 public struct RaindropAnimationProperties {
     
-    public var duration: TimeInterval
     public let points: [CGPoint]
     public let context: CGRect
     public let radius: CGFloat
     
-    public init(duration: TimeInterval, points: [CGPoint], context: CGRect, radiusCalculation: RaindropRadiusCalculationType) {
-        self.duration = duration
+    public init(points: [CGPoint], context: CGRect, radiusCalculation: RaindropRadiusCalculationType) {
         self.points = points
         self.context = context
         
