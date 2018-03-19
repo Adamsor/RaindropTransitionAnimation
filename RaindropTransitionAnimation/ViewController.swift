@@ -8,6 +8,8 @@
 
 import UIKit
 
+// This is only example and if you would like to use it in such manner please remember, that you shall free references to previous controllers (eg. via unwind segue).
+// Otherwise you will have memory leaks.
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -16,15 +18,13 @@ class ViewController: UIViewController {
         
         transitioningDelegate = self
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
 }
 
-extension ViewController:  UIViewControllerTransitioningDelegate {
+extension ViewController: UIViewControllerTransitioningDelegate {
+    
     public func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        return RaindropAnimationController(duration: 0.5, points: [view.center])
+        // Just some chosen points for demo purpose.
+        // Feel free to experiment with other points and/or calculation type.
+        return RaindropAnimationController(duration: 1.5, points: [view.center, .zero, CGPoint(x: 500, y: 400)])
     }
 }

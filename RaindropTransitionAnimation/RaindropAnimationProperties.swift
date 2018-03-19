@@ -38,7 +38,7 @@ public struct RaindropAnimationProperties {
     }
     
     /// This method is used during initialization to calculate radius of the animation.
-    static func calculateRadius(points: [CGPoint], context: CGRect, radiusCalculation: RaindropRadiusCalculationType) -> CGFloat {
+    static internal func calculateRadius(points: [CGPoint], context: CGRect, radiusCalculation: RaindropRadiusCalculationType) -> CGFloat {
         let simplificationJump: CGFloat
         
         switch radiusCalculation {

@@ -53,4 +53,3 @@ class RaindropAnimator {
         mask.add(animation, forKey: "raindrop")
     }
 }
-

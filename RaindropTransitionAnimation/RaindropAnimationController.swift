@@ -8,25 +8,27 @@
 
 import UIKit
 
-public class RaindropAnimationController: NSObject, UIViewControllerAnimatedTransitioning {
+public class RaindropAnimationController: NSObject {
     let duration: TimeInterval
     let points: [CGPoint]
     let calculationType: RaindropRadiusCalculationType
     
+    /// - parameter duration: Animation duration in seconds.
+    /// - parameter points: Points from which raindrops will start drawing, can be inside or outside draw context.
+    /// - parameter calculationType: Method for calculating raindrops radius (required to properly animate transition).
     public init(duration: TimeInterval, points: [CGPoint], calculationType: RaindropRadiusCalculationType = .simplified(20.0)) {
         self.duration = duration
         self.points = points
         self.calculationType = calculationType
     }
+}
+
+extension RaindropAnimationController: UIViewControllerAnimatedTransitioning {
     
-    // This is used for percent driven interactive transitions, as well as for
-    // container controllers that have companion animations that might need to
-    // synchronize with the main animation.
     public func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
         return duration
     }
     
-    // This method can only be a nop if the transition is interactive and not a percentDriven interactive transition.
     public func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
         
         guard let source = transitionContext.view(forKey: .from),
@@ -50,14 +52,5 @@ public class RaindropAnimationController: NSObject, UIViewControllerAnimatedTran
         }
         
         animator.start()
-    }
-    
-    /// A conforming object implements this method if the transition it creates can
-    /// be interrupted. For example, it could return an instance of a
-    /// UIViewPropertyAnimator. It is expected that this method will return the same
-    /// instance for the life of a transition.
-    @available(iOS 10.0, *)
-    public func interruptibleAnimator(using transitionContext: UIViewControllerContextTransitioning) -> UIViewImplicitlyAnimating {
-        preconditionFailure()
     }
 }
