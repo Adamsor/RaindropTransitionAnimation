@@ -8,13 +8,16 @@
 
 import QuartzCore
 
-class AnimationDelegate: NSObject, CAAnimationDelegate {
+class AnimationDelegate: NSObject {
     
-    fileprivate let completion: () -> Void
+    private let completion: () -> Void
     
     init(completion: @escaping () -> Void) {
         self.completion = completion
     }
+}
+
+extension AnimationDelegate: CAAnimationDelegate {
     
     public func animationDidStop(_: CAAnimation, finished _: Bool) {
         completion()

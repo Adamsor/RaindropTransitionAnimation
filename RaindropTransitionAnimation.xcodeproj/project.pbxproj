@@ -87,13 +87,9 @@
 		6613EB7D20446BE000979C7B /* RaindropTransitionAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				6690F7472060153000277934 /* Framework */,
 				6613EB7E20446BE000979C7B /* AppDelegate.swift */,
 				6613EB8020446BE000979C7B /* ViewController.swift */,
-				6690F745205EE68C00277934 /* AnimationDelegate.swift */,
-				6690F743205EE58A00277934 /* RaindropAnimator.swift */,
-				6613EBA22047336700979C7B /* RaindropAnimationController.swift */,
-				6613EB9E20446C4400979C7B /* RaindropAnimationProperties.swift */,
-				6613EBA020472B4C00979C7B /* CGPoint+Distance.swift */,
 				6613EB8220446BE000979C7B /* Main.storyboard */,
 				6613EB8520446BE000979C7B /* Assets.xcassets */,
 				6613EB8720446BE000979C7B /* LaunchScreen.storyboard */,
@@ -109,6 +105,42 @@
 				6613EB9520446BE000979C7B /* Info.plist */,
 			);
 			path = RaindropTransitionAnimationTests;
+			sourceTree = "<group>";
+		};
+		6690F7472060153000277934 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				6690F7492060155D00277934 /* Animation */,
+				6690F7482060154B00277934 /* Extensions */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		6690F7482060154B00277934 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6613EBA020472B4C00979C7B /* CGPoint+Distance.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6690F7492060155D00277934 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				6690F74A2060156A00277934 /* Common */,
+				6690F743205EE58A00277934 /* RaindropAnimator.swift */,
+				6613EBA22047336700979C7B /* RaindropAnimationController.swift */,
+				6613EB9E20446C4400979C7B /* RaindropAnimationProperties.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		6690F74A2060156A00277934 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6690F745205EE68C00277934 /* AnimationDelegate.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -9,9 +9,9 @@
 import UIKit
 
 public class RaindropAnimationController: NSObject {
-    let duration: TimeInterval
-    let points: [CGPoint]
-    let calculationType: RaindropRadiusCalculationType
+    public let duration: TimeInterval
+    public let points: [CGPoint]
+    public let calculationType: RaindropRadiusCalculationType
     
     /// - parameter duration: Animation duration in seconds.
     /// - parameter points: Points from which raindrops will start drawing, can be inside or outside draw context.

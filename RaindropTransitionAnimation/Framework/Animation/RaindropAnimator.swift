@@ -11,9 +11,9 @@ import QuartzCore
 class RaindropAnimator {
     
     var completion: (() -> Void)?
-    fileprivate let layer: CALayer
-    fileprivate let mask: CAShapeLayer
-    fileprivate let animation: CABasicAnimation
+    private let layer: CALayer
+    private let mask: CAShapeLayer
+    private let animation: CABasicAnimation
     
     var duration: TimeInterval {
         get { return animation.duration }
