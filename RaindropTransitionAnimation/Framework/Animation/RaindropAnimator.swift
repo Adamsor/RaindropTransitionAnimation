@@ -20,9 +20,13 @@ class RaindropAnimator {
         set(value) { animation.duration = value }
     }
     
-    var timingFunction: CAMediaTimingFunction! {
-        get { return animation.timingFunction }
-        set(value) { animation.timingFunction = value }
+    var timingFunction: CAMediaTimingFunction? {
+        get {
+            return animation.timingFunction
+        }
+        set {
+            animation.timingFunction = newValue
+        }
     }
     
     init(layer: CALayer, properties: RaindropAnimationProperties) {
