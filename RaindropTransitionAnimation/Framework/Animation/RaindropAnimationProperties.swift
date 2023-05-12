@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import CoreGraphics
 
 /// To properly animate transition it's required to know raindrops' radius.
 /// Otherwise you may find yourself animating transition (denying interaction) without visible effect after some point.

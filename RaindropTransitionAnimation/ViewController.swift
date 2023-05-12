@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RaindropFramework
 
 // This is only example and if you would like to use it in such manner please remember, that you shall free references to previous controllers (eg. via unwind segue).
 // Otherwise you will have memory leaks.

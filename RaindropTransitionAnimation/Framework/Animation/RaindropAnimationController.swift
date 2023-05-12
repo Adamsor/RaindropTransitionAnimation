@@ -44,7 +44,7 @@ extension RaindropAnimationController: UIViewControllerAnimatedTransitioning {
         transitionContext.containerView.insertSubview(target, aboveSubview: source)
         
         let animator = RaindropAnimator(layer: target.layer, properties: RaindropAnimationProperties(points: points, context: frame, radiusCalculation: calculationType))
-        animator.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseIn)
+        animator.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeIn)
         animator.duration = transitionDuration(using: transitionContext)
         animator.completion = {
             source.removeFromSuperview()
